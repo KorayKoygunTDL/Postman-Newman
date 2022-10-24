@@ -24,7 +24,7 @@
 					}
 				},
 				"url": {
-					"raw": "https://rickandmortyapi.com/api/character?asd",
+					"raw": "https://rickandmortyapi.com/api/character?",
 					"protocol": "https",
 					"host": [
 						"rickandmortyapi",
@@ -36,9 +36,8 @@
 					],
 					"query": [
 						{
-							"key": "asd",
-							"value": null,
-							"type": "text"
+							"key": "",
+							"value": null
 						}
 					]
 				}
