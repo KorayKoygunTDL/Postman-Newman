@@ -1,0 +1,31 @@
+{
+	"info": {
+		"_postman_id": "08db7edf-d086-4225-b643-526ec398bb75",
+		"name": "RAM",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"_postman_id": "00d04cb2-359e-4fdd-8259-065179b7139a",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"info\": {\n    \"count\": 826,\n    \"pages\": 42,\n    \"next\": \"https://rickandmortyapi.com/api/character/?page=2\",\n    \"prev\": null\n  },\n  \"results\": [\n    // ...\n  ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://rickandmortyapi.com/api/character"
+			},
+			"response": []
+		}
+	]
+}
