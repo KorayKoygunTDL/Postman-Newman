@@ -7,7 +7,7 @@
 	"item": [
 		{
 			"name": "New Request",
-			"_postman_id": "00d04cb2-359e-4fdd-8259-065179b7139a",
+			"id": "00d04cb2-359e-4fdd-8259-065179b7139a",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -23,7 +23,25 @@
 						}
 					}
 				},
-				"url": "https://rickandmortyapi.com/api/character"
+				"url": {
+					"raw": "https://rickandmortyapi.com/api/character?asd",
+					"protocol": "https",
+					"host": [
+						"rickandmortyapi",
+						"com"
+					],
+					"path": [
+						"api",
+						"character"
+					],
+					"query": [
+						{
+							"key": "asd",
+							"value": null,
+							"type": "text"
+						}
+					]
+				}
 			},
 			"response": []
 		}
